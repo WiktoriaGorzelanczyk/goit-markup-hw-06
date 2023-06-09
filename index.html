@@ -62,6 +62,65 @@
                 <button data-modal-open class="button-primary" type="button">Zamów usługę</button>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
+                    <h2 class="modal-text">Zostaw swoje dane w formularzu poniżej</h2>
+                    <form class="modal-form">
+                        <label>
+                            <p>Imię</p>
+                            <div class="modal-form-input">
+                                <svg width="18px" height="18px" class="modal-icon">
+                                    <use href="./images/symbol-defs.svg#icon-person-black-18dp-1"></use>
+                                </svg>
+                                <input type="text" name="name" class="modal-input" />
+                            </div>
+                        </label>
+                        <label>
+                            <p>Telefon</p>
+                            <div class="modal-form-input">
+                                <svg width="18px" height="18px" class="modal-icon">
+                                    <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1"></use>
+                                </svg>
+                                <input type="tel" name="telephone" class="modal-input" />
+                            </div>
+                        </label>
+                        <label>
+                            <p>E-mail</p>
+                            <div class="modal-form-input">
+                                <svg width="18px" height="18px" class="modal-icon">
+                                    <use href="./images/symbol-defs.svg#icon-email-black-18dp-1"></use>
+                                </svg>
+                                <input type="email" name="email" class="modal-input" />
+                            </div>
+                        </label>
+                        <label>
+                            <p>Komentarz</p>
+                            <div class="modal-form-input">
+                                <textarea
+                                   type="text"
+                                   name="comment"
+                                   rows="6"
+                                   placeholder="Wprowadź tekst"
+                                   class="modal-input"></textarea>
+                            </div>
+                        </label>
+                        <div class="checkbox">
+                            <input
+                              type="checkbox"
+                              id="check"
+                              name="checkbox"
+                              class="checkbox-input" />
+                            <label class="checkbox-label" for="check">
+                                <svg width="13px" height="10px" class="checkbox-icon">
+                                    <use href="./images/symbol-defs.svg#"></use>
+                                </svg>
+                            </label>
+                            <p class="checkbox-text">
+                                Oświadczam iż akceptuję
+                                <a href="#" class="checkbox-link">Regulamin</a> i
+                                <a href="#" class="checkbox-link">Politykę Prywatności.</a>
+                            </p>
+                        </div>
+                        <button type="submit" class="button-send">Wyślij</button>
+                    </form>
                     <button class="icon-modal-close" data-modal-close>
                             <svg class="icon-svg" width="17px" height="17px">
                                 <use href="./images/close-black.svg#X">
