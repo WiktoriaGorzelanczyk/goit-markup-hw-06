@@ -689,3 +689,95 @@ textarea {
     color: #757575;
     padding-left: 8px;
 }
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 12px 40px 20px 40px;
+}
+.modal-text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    padding: 40px 40px 12px 40px;
+    color: #212121;
+}
+.modal-input {
+    border: none;
+    outline: none;
+    margin-left: 12px;
+    width: 420px;
+}
+.modal-form label p {
+    display: flex;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: #757575;
+    margin-bottom: 4px;
+}
+.modal-form .button-send {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 0;
+    margin: 0 0 0 120px;
+}
+.modal-form-input {
+    display: flex;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 11px 0 11px 12px;
+    align-items: center;
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-input:focus-within,
+.modal-form-input:hover {
+    border-color: #2196F3;
+}
+.modal-icon {
+    display: block;
+    fill: #212121;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-input:focus-within .modal-icon,
+.modal-form-input:hover .modal-icon {
+    fill: #2196F3;
+}
+.newsletter {
+    display: flex;
+    margin-left: 78px;
+}
+.newsletter-input {
+    color: #FFFFFF;
+    display: flex;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding: 15px;
+    margin: 20px 12px 94px 0;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    width: 358px;
+    outline: none;
+}
+.newsletter-input:focus,
+.newsletter-input:hover {
+    border-color: #2196F3;
+}
+.newsletter-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+.newsletter-icon {
+    fill: #FFFFFF;
+    margin-left: 24px;
+}
