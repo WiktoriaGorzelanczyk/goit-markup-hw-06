@@ -779,7 +779,10 @@ textarea {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    margin-bottom: 20px;
+    color: #F5F4FA;
+    width: 113px;
+    height: 16px;
 }
 .newsletter-icon {
     fill: #FFFFFF;
