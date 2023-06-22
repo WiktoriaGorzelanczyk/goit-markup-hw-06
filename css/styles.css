@@ -722,6 +722,7 @@ textarea {
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: #757575;
+    margin-bottom: 4px;
 }
 .modal-form .button-send {
     display: flex;
@@ -739,7 +740,6 @@ textarea {
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 4px;
 }
 .modal-form-input:focus-within,
 .modal-form-input:hover {
